@@ -12,7 +12,7 @@ let Timer = ({init,end}) => {
                 return prev + 1;
             });
         },1000);
-    }, []);
+    },[end]);
     return (
         <>
             <div className="h2 text-uppercase my-3 text-warning">Timer : {timer}</div>
